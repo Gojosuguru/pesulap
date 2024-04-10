@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Menggunakan tinggi viewport agar berada di tengah */
+  }
+  
+  .icon {
+    cursor: pointer;
+  }
+  
+  .icon img {
+    width: 100px;
+    height: 100px;
+    transition: transform 0.3s ease;
+  }
+  
+  .icon img:hover {
+    transform: scale(1.1);
+  }
+  
